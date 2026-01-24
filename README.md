@@ -37,8 +37,9 @@ npm run booklist './My Clippings.txt'
 npm run booknotes './My Clippings.txt' '<Book Title>' > '<output file>'
 ```
 
-Replace <Book Title> with the exact name from the book list. Replace
-<output file> with a filename with a .txt extension eg output.txt
+Replace <Book Title> with the exact name from the book list.
+
+Replace <output file> with a filename with a .txt extension eg output.txt
 
 ```bash
 npm run booknotes './My Clippings.txt' 'The Great Gatesby' > 'output.txt'
