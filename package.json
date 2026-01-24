@@ -1,0 +1,15 @@
+{
+	"name": "kindle-notes-extractor",
+	"version": "0.0.1",
+	"description": "Extract notes from Kindle devices.",
+	"main": "main.js",
+	"scripts": {
+		"/": "npm run booknotes './My Clippings.txt' '<Book Title>' > '<output file>'",
+		"booknotes": "node kindle_reader.js booknotes",
+		"//": "npm run booklist './My Clippings.txt'",
+		"booklist": "node kindle_reader.js booklist"
+	},
+	"keywords": [],
+	"author": "Chris Waddell",
+	"license": "ISC"
+}
