@@ -8,7 +8,7 @@ const {splitText} = require("../utils/01-string")
 
 const extractLocationFromItem = (itemString) => {
 	const locationString = itemString.match(
-		/(\| location | \| Location |Your Highlight on Location )([^(\r\n|\n|\r)]*)/
+		/(\| location | \| Location |Your Highlight on Location |Your Note on Location )([^(\r\n|\n|\r)]*)/
 	)
 
 	const location = locationString ? locationString[2].trim() : "0"
