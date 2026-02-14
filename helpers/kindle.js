@@ -85,7 +85,8 @@ function bookNotes(fileLocation, bookTitle) {
 	const itemObjects = itemObjectsArray(items)
 	const booksFiltered = bookFilterArray(items, bookTitle)
 
-	const deduplicatedBooks = deduplicatedBookFilterArray(booksFiltered)
+	// const deduplicatedBooks = deduplicatedBookFilterArray(booksFiltered)
+	const deduplicatedBooks = booksFiltered
 
 	return bookNotesLocationOrderArray(deduplicatedBooks)
 }
